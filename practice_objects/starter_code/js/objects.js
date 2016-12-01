@@ -91,18 +91,17 @@ console.log('dad object after step 4:', dad)
 
 // Now build yourself by referencing physical and personality attributes from your folks!
 
-var kris = {};
+var me = {};
 
-kris.personality = {
+me.personality = {
   intelligent: true,
   temperament: 'melancholic',
   positive: 'alert',
   neutral: 'complex',
   negative: 'indecisive'
+};
 
-}
-
-kris.physicality = {
+me.physicality = {
   height: '6 foot 1 inches',
   weight: '183 pounds',
   hair_color: 'black',
@@ -115,7 +114,7 @@ kris.physicality = {
 
 
 // uncomment this console.log after you write your code
-// console.log('me object after step 5:', me)
+console.log('me object after step 5:', me)
 
 //////////////////////////////
 //          STEP 6          //
