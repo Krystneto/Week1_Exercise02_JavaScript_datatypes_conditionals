@@ -123,12 +123,15 @@ console.log('me object after step 5:', me)
 // Make 2 lists: first, what you're good at, and second, what you're bad at.
 
 
+me.good = ['machining', 'CAM programming', 'working with others', 'listening'];
+
+me.bad = ['negotiating', 'speaking up', 'folding clothes'];
 
 
 
 
 // uncomment this console.log after you write your code
-// console.log('me object after step 6:', me)
+console.log('me object after step 6:', me)
 
 //////////////////////////////
 //          STEP 7          //
@@ -136,13 +139,14 @@ console.log('me object after step 5:', me)
 
 // Age yourself.
 
+me.age = 32;
 
 
 
 
 
 // uncomment this console.log after you write your code
-// console.log('me object after step 7:', me)
+console.log('me object after step 7:', me)
 
 //////////////////////////////
 //          STEP 8          //
@@ -150,13 +154,14 @@ console.log('me object after step 5:', me)
 
 // Delete half of the things you were good at.
 
+me.good.splice(2,2);
 
 
 
 
 
 // uncomment this console.log after you write your code
-// console.log('me object after step 8:', me)
+console.log('me object after step 8:', me)
 
 //////////////////////////////
 //          STEP 9          //
@@ -165,12 +170,12 @@ console.log('me object after step 5:', me)
 // Age yourself (again).
 
 
-
+me.age = 32;
 
 
 
 // uncomment this console.log after you write your code
-// console.log('me object after step 9:', me)
+console.log('me object after step 9:', me)
 
 //////////////////////////////
 //          STEP 10         //
@@ -178,13 +183,13 @@ console.log('me object after step 5:', me)
 
 // Add 'sitting' to the things you're good at and remove everything else from the list.
 
-
+me.good.splice(0,2,'sitting');
 
 
 
 
 // uncomment this console.log after you write your code
-// console.log('me object after step 10:', me)
+console.log('me object after step 10:', me)
 
 //////////////////////////////
 //          STEP 11         //
@@ -192,13 +197,13 @@ console.log('me object after step 5:', me)
 
 // Add 5 more things to the list of things you're bad at.
 
-
+me.bad.splice(me.bad.length,0,'traveling by plane','long-distance running','looking for good deals','packing clothes','interior design');
 
 
 
 
 // uncomment this console.log after you write your code
-// console.log('me object after step 11:', me)
+console.log('me object after step 11:', me)
 
 //////////////////////////////
 //           BONUS          //
@@ -206,9 +211,11 @@ console.log('me object after step 5:', me)
 
 // Create a method that prints out one of your classic sayings!
 
-
-
+var saying = function() {
+  console.log("Why you do dat?")
+}
 
 
 
 // call your function :)
+saying();
