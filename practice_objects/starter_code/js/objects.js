@@ -7,13 +7,24 @@ console.log("script linked!")
 // First build two objects 'mom' and 'dad' as object literals (e.g. 'var mom = {}'). If you have a non-traditional family structure, just use someone everybody loves, like Joe Biden or Oprah.
 var mon = {};
 
+var mom = {};
+
+var dad = {};
+
+mom.personality = {};
+
+mom.physicality = {};
+
+dad.personality = {};
+
+dad.physicality = {};
 
 
 
 
 // uncomment these console.logs after you write your code
-// console.log('mom object after step 1:', mom)
-// console.log('dad object after step 1:', dad)
+console.log('mom object after step 1:', mom)
+console.log('dad object after step 1:', dad)
 
 //////////////////////////////
 //          STEP 2          //
@@ -21,10 +32,37 @@ var mon = {};
 
 // Create one Physicality object and one Personality object for each parent (e.g. 'mom.physicality = {}' and 'mom.personality = {}').
 
+mom.personality {
+  intelligent: true,
+  temperament: 'melancholic',
+  positive: 'adventurous',
+  neutral: 'mellow',
+  negative: 'passive'
+};
 
+mom.physicality {
+  height: '5 foot 5 inches',
+  weight: '120 pounds',
+  hair_color: 'brown',
+  eye_color: 'brown',
+  athletic: false
+};
 
+dad.personality {
+  intelligent: true,
+  temperament: 'choleric',
+  positive: 'creative',
+  neutral: 'artful',
+  negative: 'opinionated';
+};
 
-
+dad.physicality {
+  height: '5 foot 11 inches',
+  weight: '220 pounds',
+  hair_color: 'brown',
+  eye_color: 'hazel',
+  athletic: true
+};
 
 // uncomment these console.logs after you write your code
 // console.log('mom object after step 2:', mom)
