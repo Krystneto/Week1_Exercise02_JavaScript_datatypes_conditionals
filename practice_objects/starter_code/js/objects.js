@@ -5,20 +5,10 @@ console.log("script linked!")
 //////////////////////////////
 
 // First build two objects 'mom' and 'dad' as object literals (e.g. 'var mom = {}'). If you have a non-traditional family structure, just use someone everybody loves, like Joe Biden or Oprah.
-var mon = {};
 
 var mom = {};
 
 var dad = {};
-
-mom.personality = {};
-
-mom.physicality = {};
-
-dad.personality = {};
-
-dad.physicality = {};
-
 
 
 
@@ -32,41 +22,16 @@ console.log('dad object after step 1:', dad)
 
 // Create one Physicality object and one Personality object for each parent (e.g. 'mom.physicality = {}' and 'mom.personality = {}').
 
-mom.personality {
-  intelligent: true,
-  temperament: 'melancholic',
-  positive: 'adventurous',
-  neutral: 'mellow',
-  negative: 'passive'
-};
+mom.personality = {};
 
-mom.physicality {
-  height: '5 foot 5 inches',
-  weight: '120 pounds',
-  hair_color: 'brown',
-  eye_color: 'brown',
-  athletic: false
-};
+mom.physicality = {};
 
-dad.personality {
-  intelligent: true,
-  temperament: 'choleric',
-  positive: 'creative',
-  neutral: 'artful',
-  negative: 'opinionated';
-};
+dad.personality = {};
 
-dad.physicality {
-  height: '5 foot 11 inches',
-  weight: '220 pounds',
-  hair_color: 'brown',
-  eye_color: 'hazel',
-  athletic: true
-};
+dad.physicality = {};
 
-// uncomment these console.logs after you write your code
-// console.log('mom object after step 2:', mom)
-// console.log('dad object after step 2:', dad)
+console.log('mom object after step 2:', mom)
+console.log('dad object after step 2:', dad)
 
 //////////////////////////////
 //          STEP 3          //
@@ -74,14 +39,24 @@ dad.physicality {
 
 // Using different data types (Number, String, Array, Object, Null, & Boolean), add **5 physical attributes** to each of your parents.
 
+mom.personality = {
+  intelligent: true,
+  temperament: 'melancholic',
+  positive: 'adventurous',
+  neutral: 'mellow',
+  negative: 'passive'
+};
 
+dad.personality = {
+  intelligent: true,
+  temperament: 'choleric',
+  positive: 'creative',
+  neutral: 'artful',
+  negative: 'opinionated'
+};
 
-
-
-
-// uncomment these console.logs after you write your code
-// console.log('mom object after step 3:', mom)
-// console.log('dad object after step 3:', dad)
+console.log('mom object after step 3:', mom)
+console.log('dad object after step 3:', dad)
 
 //////////////////////////////
 //          STEP 4          //
@@ -89,14 +64,26 @@ dad.physicality {
 
 // Do the same with the personality object!
 
+mom.physicality = {
+  height: '5 foot 5 inches',
+  weight: '120 pounds',
+  hair_color: 'brown',
+  eye_color: 'brown',
+  athletic: false
+};
 
-
-
+dad.physicality = {
+  height: '5 foot 11 inches',
+  weight: '220 pounds',
+  hair_color: 'brown',
+  eye_color: 'hazel',
+  athletic: true
+};
 
 
 // uncomment these console.logs after you write your code
-// console.log('mom object after step 4:', mom)
-// console.log('dad object after step 4:', dad)
+console.log('mom object after step 4:', mom)
+console.log('dad object after step 4:', dad)
 
 //////////////////////////////
 //          STEP 5          //
@@ -104,6 +91,24 @@ dad.physicality {
 
 // Now build yourself by referencing physical and personality attributes from your folks!
 
+var kris = {};
+
+kris.personality = {
+  intelligent: true,
+  temperament: 'melancholic',
+  positive: 'alert',
+  neutral: 'complex',
+  negative: 'indecisive'
+
+}
+
+kris.physicality = {
+  height: '6 foot 1 inches',
+  weight: '183 pounds',
+  hair_color: 'black',
+  eye_color: 'hazel',
+  athletic: true
+};
 
 
 
